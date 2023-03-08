@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Karla:wght@400;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    /* width: 850px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* box-sizing: border-box; */
+}
+
+.head-bar{
+    height: 65px;
+    background: linear-gradient(45deg, #672280, #A626D3);
+    display: flex;
+    align-items: center;
+    color: white;
+    /* justify-content: space-between; */
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.head--img{
+    width: 31px;
+}
+
+.head--title{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.hero{
+    width: 750px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.input{
+    display: flex;
+    gap: 50px;
+    /* margin: 100px; */
+}
+
+.hero--input1, .hero--input2{
+    height: 35px;
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+.meme-img{
+    width: 650px;
+    /* position: relative; */
+}
+
+.btn--getimg{
+    text-indent: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+    height: 40px;
+    /* width: 570px; */
+    background: linear-gradient(45deg, #672280, #A626D3);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.meme-content{
+    position: relative;
+}
+
+.input1, .input2{
+    position: absolute;
+    left: 40%;
+    font-size: 30px;
+    font-family: 'Climate Crisis', cursive;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.input1{
+    /* position: absolute; */
+    top: 20px;
+}
+
+.input2{
+    bottom: 20px;
+}
